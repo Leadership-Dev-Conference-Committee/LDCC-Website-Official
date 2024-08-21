@@ -5,6 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'Edu': ["Edu VIC WA NT Beginner", 'cursive'], 
+      'Coming' : ["Coming Soon", 'cursive'],
+      'Poppins' : ["Poppins", 'sans-serif'],   
+    },
     extend: {},
   },
   plugins: [],

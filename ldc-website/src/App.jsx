@@ -1,13 +1,21 @@
-
 import './App.css'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold">
-        Hello world!
-      </h1>
+      <div className='text-slate-800 bg-gradient-to-b from-blue-50 to-orange-50 px-10 font-Coming'>
+        
+        <Navbar />
+
+        <div className=''>
+          <Hero />
+        </div>
+        
+        
+      </div>
     </>
   )
 }
