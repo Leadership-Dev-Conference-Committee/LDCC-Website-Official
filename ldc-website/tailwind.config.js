@@ -8,7 +8,8 @@ export default {
     fontFamily: {
       'Edu': ["Edu VIC WA NT Beginner", 'cursive'], 
       'Coming' : ["Coming Soon", 'cursive'],
-      'Poppins' : ["Poppins", 'sans-serif'],   
+      'Poppins' : ["Poppins", 'sans-serif'],  
+      'Mode' : ["Moderustic", 'sans-serif'], 
     },
     extend: {},
   },
