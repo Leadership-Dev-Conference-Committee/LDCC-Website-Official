@@ -47,7 +47,7 @@ const Navbar = () => {
                 <section className="flex flex-col justify-between max-w-screen-2xl w-full text-lg items-center">
 
                     <div className='flex w-full justify-between items-center'>
-                        <Link to={'/Home'}><img src={logoImg} alt="logo" className="w-20 h-9 select-none cursor-pointer hover:animate-bounce" /></Link>
+                        <Link to={'/'}><img src={logoImg} alt="logo" className="w-20 h-9 select-none cursor-pointer hover:animate-bounce" /></Link>
 
                         <ul className='md:flex lg:gap-10 gap-5 hidden font-semibold items-center'>
                             {navLinks.map((navLinks, index) => (
