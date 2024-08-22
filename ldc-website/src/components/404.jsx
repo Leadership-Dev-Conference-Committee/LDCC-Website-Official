@@ -10,7 +10,7 @@ const NotFound = () => {
                 <p className='py-3 w-full max-w-screen-md md:text-xl text-md'>Oops! The page you are looking for does not exist yet. You may have entered an incorrect URL - or the page must have been deleted. </p>
             </div>
             <img src={NFImg} className='w-96 py-5 opacity-90'></img>
-            <Link className='bg-indigo-900 text-slate-100 font-normal text-md px-3 py-2 rounded-full hover:bg-blue-700 transition z-10' to={'/Home'}>Return Home</Link>
+            <Link className='bg-purple-950 text-slate-100 font-normal text-md px-3 py-2 rounded-full hover:bg-red-900 transition z-10' to={'/'}>Return Home</Link>
         </div>
     );
 }

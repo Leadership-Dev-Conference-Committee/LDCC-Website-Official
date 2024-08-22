@@ -39,11 +39,11 @@ const Hero = () => {
                 <p className='font-medium md:text-md lg:text-lg text-sm '>{eventInfo}</p>
                 <a className='font-normal md:text-md lg:text-lg text-sm pt-4 underline' href=''>Interested in becoming a sponsor?</a>
                 
-                <div className='flex text-center items-center justify-center mt-4 md:gap-1'>
+                <div className='flex text-center items-center justify-center mt-4 md:gap-2 gap-1'>
                     {Links.map((link, index) => (
                         <a
                             key={index}
-                            className="p-2 text-xl border rounded-full md:text-2xl cursor-pointer hover:text-blue-700 transition"
+                            className="p-2 text-xl rounded-full md:text-2xl cursor-pointer text-blue-50 bg-purple-950 hover:text-purple-950 hover:bg-slate-50 transition"
                             href={link.url}
                             target="_blank"
                         >
@@ -56,8 +56,8 @@ const Hero = () => {
                 </div>           
             </div>
             
-            <img src={LDCBanner} alt="LDC Banner" className="w-full h-screen lg:flex hidden bg-cover bg-bottom inset-0 z-[1] absolute select-none opacity-90" />
-            <img src={LDCBannerMob} alt="LDC Banner" className="w-full lg:hidden flex h-screen bg-cover bg-bottom inset-0 z-0 absolute select-none opacity-90" />
+            <img src={LDCBanner} alt="LDC Banner" className="w-full h-screen md:flex hidden bg-cover bg-bottom inset-0 z-[1] absolute select-none opacity-90 pt-10" />
+            <img src={LDCBannerMob} alt="LDC Banner" className="w-full md:hidden flex h-screen bg-cover bg-bottom inset-0 z-0 absolute select-none opacity-90 pt-32" />
 
         </section>
     )

@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     {/* bg-gradient-to-b from-blue-50 to-orange-50 */}
-      <div className='text-indigo-900 font-Mode'>
+      <div className='text-purple-950 font-Mode'>
         
         <Router>
           <Routes>
