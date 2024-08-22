@@ -64,7 +64,7 @@ const Navbar = () => {
                     <div className={`flex md:hidden w-full pt-6 items-start font-medium ${open ? 'flex' : 'hidden'}`}>
                         <ul className="flex-col justify-start flex text-left -mt-2 gap-2">
                         {navLinks.map((item) => (
-                            <li className="font-medium py-2 hover:text-blue-700 transition " key={item} >
+                            <li className="font-medium py-2 hover:text-red-900 transition " key={item} >
                             {/* <a href={item.link}> {item.title}</a> */}
                                 <Link to={item.path} onClick={() => { setOpen((open) => !open); window.scrollTo(0, 0); }} className='cursor-pointer select-none' >{item.title}</Link>
                             </li>
