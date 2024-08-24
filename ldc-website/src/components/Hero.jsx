@@ -1,6 +1,6 @@
 import LDCBanner from '/public/Bg-Fc.png';
 import LDCBannerMob from '/public/Bg-Mc.png';
-import { FaFacebookF } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -39,15 +39,15 @@ const Hero = () => {
                 <p className='font-medium md:text-md lg:text-lg text-sm '>{eventInfo}</p>
                 <a className='font-normal md:text-md lg:text-lg text-sm pt-4 underline' href=''>Interested in becoming a sponsor?</a>
                 
-                <div className='flex text-center items-center justify-center mt-4 md:gap-2 gap-1'>
+                <div className='flex text-center items-center justify-center mt-4 md:gap-1'>
                     {Links.map((link, index) => (
                         <a
                             key={index}
-                            className="p-2 text-xl rounded-full md:text-2xl cursor-pointer text-blue-50 bg-purple-950 hover:text-purple-950 hover:bg-slate-50 transition"
+                            className="p-2 text-xl rounded-full md:text-2xl cursor-pointer text-purple-950 hover:bg-purple-100 transition"
                             href={link.url}
                             target="_blank"
                         >
-                            {link.name === 'Facebook' && <FaFacebookF />}
+                            {link.name === 'Facebook' && <FaFacebook />}
                             {link.name === 'Instagram' && <FaInstagram />}
                             {link.name === 'Linkedin' && <FaLinkedin />}
                             {link.name === 'Email' && <MdEmail />}

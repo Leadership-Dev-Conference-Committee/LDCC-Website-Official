@@ -26,7 +26,7 @@ const Navbar = () => {
         },
         { 
             title: 'Team', 
-            path: '/404' 
+            path: '/Team' 
         },
         { 
             title: 'FAQ', 
@@ -42,7 +42,7 @@ const Navbar = () => {
         <Headroom style={{
             zIndex: '100',
         }}>
-            <nav className={`py-5 flex justify-center bg-blue-50 backdrop-blur-2xl px-10`}>
+            <nav className={`py-5 flex justify-center bg-blue-50 shadow-md px-10 `}>
                 <section className="flex flex-col justify-between max-w-screen-2xl w-full text-lg items-center">
 
                     <div className='flex w-full justify-between items-center'>

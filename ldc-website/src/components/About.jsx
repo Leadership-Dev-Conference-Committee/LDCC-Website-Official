@@ -43,9 +43,9 @@ const About = () => {
 
 
     return (
-        <main className='flex flex-col gap-24 bg-gradient-to-b from-blue-50 to-orange-50 pt-5 px-10'>
+        <main className='flex flex-col gap-24 bg-gradient-to-b from-blue-50 to-orange-50 pt-5 px-10 pb-14'>
             <section className='flex flex-col gap-24 items-center'>
-                <h1 className='flex justify-start max-w-screen-2xl w-full font-bold md:text-3xl lg:text-5xl text-2xl text-red-900 border-b border-purple-950'>About</h1>
+                <h1 className='flex justify-start max-w-screen-xl w-full font-bold md:text-3xl lg:text-5xl text-2xl text-red-900 border-b border-purple-950'>About</h1>
                 <article className="flex justify-between max-w-screen-xl w-full items-center -mt-10 gap-4">
                     <div className='flex flex-col text-start'>
                         <h1 className='font-semibold md:text-2xl lg:text-3xl text-xl flex text-red-900 max-w-screen-md'>Welcome to McMaster's Annual Leadership Development Conference '25</h1>
