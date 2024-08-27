@@ -29,16 +29,15 @@ const Team = () => {
             position: 'LDCC Co-Chair & Website Developer Lead',
             img: Dhruv,
             social: {
-                github: 'fg',
-                linkedin: 'f',
-                instagram: 'f',
-                email: 'f'
+                github: 'https://github.com/chokshidhruv',
+                linkedin: 'https://www.linkedin.com/in/chokshidhruv/',
+                email: 'mailto:chokshid@mcmaster.ca'
             },
             optionalParagraph: 'Second year Software Engineering student at McMaster University.'
         },
         {
-            name: 'John Doe',
-            position: 'Coordinator',
+            name: 'Deea Saha',
+            position: 'LDCC Co-Chair & Social Media/Content Creator Lead',
             img: oldLogo,
             social: {
                 github: '',
@@ -46,40 +45,9 @@ const Team = () => {
                 instagram: '',
                 email: ''
             },
-            optionalParagraph: 'loreum ipsum'
+            optionalParagraph: 'Second year Student at McMaster University'
         },
-        {
-            name: 'John Doe',
-            position: 'Coordinator',
-            img: oldLogo,
-            social: {
-                github: '',
-                linkedin: '',
-                instagram: '',
-                email: ''
-            }
-        },
-        {
-            name: 'John Doe',
-            position: 'Coordinator',
-            social: {
-                github: '',
-                linkedin: '',
-                instagram: '',
-                email: ''
-            }
-        },
-        {
-            name: 'John Doe',
-            position: 'Coordinator',
-            img: oldLogo,
-            social: {
-                github: '',
-                linkedin: '',
-                instagram: '',
-                email: ''
-            },
-        },
+
     ] 
 
     return (
