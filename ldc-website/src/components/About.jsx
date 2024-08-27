@@ -1,7 +1,7 @@
-import AboutBg from '/public/about-bg-img.png';
-import AboutImg1 from '/public/about-img1.png';
-import AboutImg2 from '/public/about-img2.png';
-import AboutImg3 from '/public/about-img3.png';
+import AboutBg from '/src/assets/about-bg-img.png';
+import AboutImg1 from '/src/assets/about-img1.png';
+import AboutImg2 from '/src/assets/about-img2.png';
+import AboutImg3 from '/src/assets/about-img3.png';
 import { FaCalendarAlt } from "react-icons/fa";
 import { IoMdTime } from "react-icons/io";
 import { TbMapPin2 } from "react-icons/tb";

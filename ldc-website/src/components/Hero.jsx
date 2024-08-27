@@ -1,5 +1,5 @@
-import LDCBanner from '/public/Bg-Fc.png';
-import LDCBannerMob from '/public/Bg-Mc.png';
+import LDCBanner from '/src/assets/Bg-Fc.png';
+import LDCBannerMob from '/src/assets/Bg-Mc.png';
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";

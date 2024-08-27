@@ -1,11 +1,11 @@
-import oldLogo from '/public/oldlogo.png';
+import oldLogo from '/src/assets/oldlogo.png';
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 
 // Team component
-import Dhruv from '/public/TeamPFP/Dhruv.jpg';
+import Dhruv from '/src/assets/TeamPFP/Dhruv.jpg';
 
 const Team = () => {
 

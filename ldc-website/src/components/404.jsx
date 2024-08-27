@@ -1,4 +1,4 @@
-import NFImg from '/public/404pg.png';
+import NFImg from '/src/assets/404pg.png';
 import { Link } from 'react-router-dom';
 
 const NotFound = () => {
