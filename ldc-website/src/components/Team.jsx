@@ -25,6 +25,17 @@ const Team = () => {
 
     const coordinatorTeamList = [
         {
+            name: 'Jackie Fisher (she/her)',
+            position: 'LDCC Chair',
+            img: oldLogo,
+            social: {
+                github: '',
+                linkedin: '',
+                email: ''
+            },
+            optionalParagraph: ''
+        },
+        {
             name: 'Dhruv Chokshi',
             position: 'LDCC Co-Chair & Website Developer Lead',
             img: Dhruv,
@@ -40,12 +51,11 @@ const Team = () => {
             position: 'LDCC Co-Chair & Social Media/Content Creator Lead',
             img: oldLogo,
             social: {
-                github: '',
-                linkedin: '',
-                instagram: '',
-                email: ''
+                linkedin: 'https://www.linkedin.com/in/deea-saha-036299245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+                instagram: 'https://www.instagram.com/d.eeeeea',
+                email: 'mailto:sahadeea24@gmail.com'
             },
-            optionalParagraph: 'Second year Student at McMaster University'
+            optionalParagraph: 'Second year Civil Engineering Student at McMaster University'
         },
 
     ] 
