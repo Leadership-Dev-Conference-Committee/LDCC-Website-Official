@@ -1,4 +1,4 @@
-import AboutBg from '/src/assets/about-bg-img.png';
+import AboutBg from '/src/assets/about-bg.png';
 import AboutImg1 from '/src/assets/about-img1.png';
 import AboutImg2 from '/src/assets/about-img2.png';
 import AboutImg3 from '/src/assets/about-img3.png';
@@ -38,8 +38,9 @@ const About = () => {
         },
     ]
 
-    const eventInfo = <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorum doloremque recusandae, harum tempore magni molestiae omnis magnam cumque eum autem sit placeat amet iusto esse velit? Odit, voluptates iusto!</p>
-    const moreEventInfo = <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorum doloremque recusandae, harum tempore magni molestiae omnis magnam cumque eum autem sit placeat amet iusto esse velit? Odit, voluptates iusto!</p>
+    const eventInfo = <p>Thank you for your interest in joining the Leadership Development Conference (LDC) committee of 2025! The LDC is McMaster University's annual event dedicated to fostering leadership skills and personal branding, with a focus on empowering students in the field of engineering. 
+        <br/><br/>
+    Through engaging presentations, speakers, networking opportunities, and linkedin headshots, LDC aims to provide participants with the tools they need to develop their leadership potential and build a strong personal brand aligning with their career goals.</p>
 
 
     return (
@@ -51,7 +52,7 @@ const About = () => {
                         <h1 className='font-semibold md:text-2xl lg:text-3xl text-xl flex text-red-900 max-w-screen-md'>Welcome to McMaster's Annual Leadership Development Conference '25</h1>
                         <p className='font-medium md:text-md lg:text-lg text-sm my-5'>Join McMaster Engineering students in the <strong>largest student run engineering conference!</strong></p>
                         
-                        <section className='flex flex-col font-bold gap-2'>
+                        <section className='flex flex-col text-lg font-bold gap-2'>
                             <div className='flex gap-2 items-center'>
                                 < FaCalendarAlt />
                                 <p>{dateOfEvent}</p>
@@ -62,12 +63,11 @@ const About = () => {
                             </div>
                             <div className='flex gap-2 items-center'>
                                 < TbMapPin2 />
-                                <p>McMaster University; {hallOfEvent}</p>
+                                <p>McMaster University {hallOfEvent}</p>
                             </div>
                         </section>
 
                         <p className='font-medium md:text-md lg:text-lg text-sm my-5 max-w-screen-md'>{eventInfo}</p>
-                        <p className='font-medium md:text-md lg:text-lg text-sm max-w-screen-md'>{moreEventInfo}</p>
 
                         <div className="md:hidden flex bg-bottom select-none opacity-90 mt-4">
                             <img src={AboutImg1} alt = "Dhruv" className="w-1/2 h-3/4 top-0 border-4 rounded-xl border-red-900 right-0 object-cover transform rotate-[5deg]" />
@@ -110,20 +110,20 @@ const About = () => {
                                 <p className=''>200+ Attendees</p>
                             </div>
                             <div className='border py-4 text-orange-50 bg-purple-950 rounded-2xl w-full'>
-                                <p className=''>#? Presentations</p>
+                                <p className=''>5+ Presentations</p>
                             </div>
                             <div className='border py-4 text-orange-50 bg-purple-950 rounded-2xl w-full'>
-                                <p className=''>#? Speakers</p>                        
+                                <p className=''>10+ Organizations</p>                        
                             </div>
                             <div className='border py-4 text-orange-50 bg-purple-950 rounded-2xl w-full'>
-                                <p className=''>#?</p>
+                                <p className=''>Networking Pannels</p>
                             </div>
                         </div>
             
                     </div>
                 </article>
 
-                <img src={AboutBg} alt="LDC Banner" className="w-3/4 flex items-end bg-cover bg-bottom select-none opacity-90 -mt-24" />
+                <img src={AboutBg} alt="LDC Banner" className="w-3/4 flex bg-cover bg-bottom select-none opacity-90 -mt-24" />
        
 
             </section>

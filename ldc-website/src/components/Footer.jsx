@@ -9,20 +9,16 @@ const Footer = () => {
 
     const Links = [
         {
-            name: 'Facebook',
-            url: ''
-        },
-        {
             name: 'Instagram',
-            url: ''
+            url: 'https://www.instagram.com/ldc_maceng/'
         },
         {
             name: 'Linkedin',
-            url: ''
+            url: 'https://www.linkedin.com/in/mcmaster-engineering-leadership-development-conference-9169aa29b/?originalSubdomain=ca'
         },
         {
             name: 'Email',
-            url: ''
+            url: 'mailto:ldcc@macengsociety.ca'
         }
     ];
 

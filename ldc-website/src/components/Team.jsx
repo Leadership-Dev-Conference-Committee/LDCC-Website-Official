@@ -5,7 +5,8 @@ import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 
 // Team component
-import Dhruv from '/src/assets/TeamPFP/Dhruv.jpg';
+import Dhruv from '/src/assets/TeamPFP/DhruvPFP.jpg';
+import Jackie from '/src/assets/TeamPFP/JackiePFP.png';
 
 const Team = () => {
 
@@ -26,14 +27,14 @@ const Team = () => {
     const coordinatorTeamList = [
         {
             name: 'Jackie Fisher (she/her)',
-            position: 'LDCC Chair',
-            img: oldLogo,
+            position: 'LDCC Chair/MES VP External',
+            img: Jackie,
             social: {
-                github: '',
-                linkedin: '',
-                email: ''
+                instagram: 'https://www.instagram.com/jackle_fisher/',
+                linkedin: 'https://www.linkedin.com/in/jacqueline-fisher252/',
+                email: 'mailto:vp.external@macengsociety.ca'
             },
-            optionalParagraph: ''
+            optionalParagraph: '3rd year Materials Science and Engineering & Society program'
         },
         {
             name: 'Dhruv Chokshi',
@@ -48,7 +49,7 @@ const Team = () => {
         },
         {
             name: 'Deea Saha',
-            position: 'LDCC Co-Chair & Social Media/Content Creator Lead',
+            position: 'LDCC Co-Chair',
             img: oldLogo,
             social: {
                 linkedin: 'https://www.linkedin.com/in/deea-saha-036299245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',

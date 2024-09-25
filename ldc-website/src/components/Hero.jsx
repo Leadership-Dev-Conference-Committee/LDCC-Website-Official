@@ -10,24 +10,20 @@ const Hero = () => {
     //Update date when event date is confirmed
     const dateOfEvent = ['Date: TBD']
 
-    const eventInfo = <p>Join McMaster University's <strong>largest student run engineering conference</strong> featuring co-op pannels, professional speakers, Mac alumni, and Linkedin headshots! Registeration opens soon! </p>
+    const eventInfo = <p>Join McMaster University's <strong>largest student run engineering conference</strong> featuring co-op pannels, professional speakers, Mac alumni, networking opportuinties and Linkedin headshots! Registeration opens soon! </p>
 
     const Links = [
         {
-            name: 'Facebook',
-            url: ''
-        },
-        {
             name: 'Instagram',
-            url: ''
+            url: 'https://www.instagram.com/ldc_maceng/'
         },
         {
             name: 'Linkedin',
-            url: ''
+            url: 'https://www.linkedin.com/in/mcmaster-engineering-leadership-development-conference-9169aa29b/?originalSubdomain=ca'
         },
         {
             name: 'Email',
-            url: ''
+            url: 'mailto:ldcc@macengsociety.ca'
         }
     ];
 
