@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
 
 // Team component
 import Dhruv from '/src/assets/TeamPFP/DhruvPFP.jpg';
@@ -20,6 +21,7 @@ const Team = () => {
     //         linkedin: 'Link',
     //         instagram: 'Link',
     //         email: 'Link'
+    //         website: 'Link'
     //     },
     //     optionalParagraph: 'Optional paragraph
     // },
@@ -43,7 +45,8 @@ const Team = () => {
             social: {
                 github: 'https://github.com/chokshidhruv',
                 linkedin: 'https://www.linkedin.com/in/chokshidhruv/',
-                email: 'mailto:chokshid@mcmaster.ca'
+                email: 'mailto:chokshid@mcmaster.ca',
+                website: 'https://www.dhruvchokshi.co'
             },
             optionalParagraph: 'Second year Software Engineering student at McMaster University.'
         },
@@ -79,6 +82,7 @@ const Team = () => {
                                         {team.social.linkedin && <a href={team.social.linkedin} target="_blank" className="rounded-full p-2 hover:bg-purple-100 text-md transition"><FaLinkedin /></a>}
                                         {team.social.instagram && <a href={team.social.instagram} target="_blank" className="rounded-full p-2 hover:bg-purple-100 text-md transition"><FaInstagram /></a>}
                                         {team.social.email && <a href={team.social.email} target="_blank" className="rounded-full p-2 hover:bg-purple-100 text-lg transition"><MdEmail /></a>}
+                                        {team.social.website && <a href={team.social.website} target="_blank" className="rounded-full p-2 hover:bg-purple-100 text-lg transition"><FaGlobe /></a>}
                                     </div>
                                     <p className="text-sm italic font-normal pb-6">{team.optionalParagraph}</p>
                                 </div>    
