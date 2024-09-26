@@ -8,6 +8,7 @@ import { FaGlobe } from "react-icons/fa";
 // Team component
 import Dhruv from '/src/assets/TeamPFP/DhruvPFP.jpg';
 import Jackie from '/src/assets/TeamPFP/JackiePFP.png';
+import Deea from '/src/assets/TeamPFP/DeeaPFP.png';
 
 const Team = () => {
 
@@ -53,7 +54,7 @@ const Team = () => {
         {
             name: 'Deea Saha',
             position: 'LDCC Co-Chair',
-            img: oldLogo,
+            img: Deea,
             social: {
                 linkedin: 'https://www.linkedin.com/in/deea-saha-036299245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
                 instagram: 'https://www.instagram.com/d.eeeeea',
