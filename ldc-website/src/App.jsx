@@ -8,6 +8,7 @@ import AboutPage from './pages/AboutPage'
 import Layout from './Layout'
 import NotFound from './pages/404NFPage'
 import TeamPage from './pages/TeamPage'
+import FAQPage from './pages/FAQPage'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
               <Route path='/About' element={<AboutPage />} />
               <Route path='/404' element={<NotFound />} />
               <Route path='/Team' element={<TeamPage />} />
+              <Route path='/FAQ' element={<NotFound />} />
             </Route>
 
           </Routes>
