@@ -14,7 +14,7 @@ const FAQ = () => {
       
       
     return (
-        <main className='bg-gradient-to-b from-blue-50 to-orange-50 pt-5 px-10 pb-14'>
+        <main className='bg-gradient-to-b from-blue-50 to-orange-50 justify-center items-center pt-5 px-10 pb-14'>
             <section className="py-4">
                 <h2 className="flex justify-start max-w-screen-xl w-full font-bold md:text-3xl lg:text-5xl text-2xl text-red-900 border-b border-purple-950">Frequently Asked Questions</h2>
                 <p className="text-lg mb-4">Answers to some commonly asked Questions.</p>
@@ -22,7 +22,7 @@ const FAQ = () => {
         {/* 
         Section is for topic grid and controls the number of coloumns as well as how they look    
         */}
-            <section className="bg-gradient-to-b from-blue-50 to-orange-50 justify-start max-w-screen-xl w-full grid gap-6 grid-cols-1 md:grid-cols-2">
+            <section className="bg-gradient-to-b from-blue-50 to-orange-50 max-w-screen-xl w-full grid gap-6 grid-cols-1 md:grid-cols-2 justify-center">
             {topics.map((topic, index) => (
                 <div key={index} className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-lg font-semibold text-gray-800">{topic.title}</h3>
