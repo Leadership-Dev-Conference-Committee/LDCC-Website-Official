@@ -38,9 +38,12 @@ const About = () => {
         },
     ]
 
-    const eventInfo = <p>Thank you for your interest in joining the Leadership Development Conference (LDC) committee of 2025! The LDC is McMaster University's annual event dedicated to fostering leadership skills and personal branding, with a focus on empowering students in the field of engineering. 
+    const eventInfo = <p>The Leadership Development Conference (LDC) is McMaster University's annual event dedicated to fostering leadership skills and personal branding, with a focus on empowering students in the field of engineering. 
         <br/><br/>
-    Through engaging presentations, speakers, networking opportunities, and linkedin headshots, LDC aims to provide participants with the tools they need to develop their leadership potential and build a strong personal brand aligning with their career goals.</p>
+    Through engaging presentations, speakers, networking opportunities, and linkedin headshots, LDC aims to provide participants with the tools they need to develop their leadership potential and build a strong personal brand aligning with their career goals.
+        <br/><br/>
+    This year, the theme is <strong>building your Personal Brand!</strong>
+    </p>
 
 
     return (
