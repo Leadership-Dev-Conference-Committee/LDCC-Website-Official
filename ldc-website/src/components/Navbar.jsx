@@ -22,7 +22,7 @@ const Navbar = () => {
         // },
         { 
             title: 'Sponsors', 
-            path: '/404' 
+            path: '/Sponsors' 
         },
         { 
             title: 'Team', 

@@ -9,6 +9,7 @@ import Layout from './Layout'
 import NotFound from './pages/404NFPage'
 import TeamPage from './pages/TeamPage'
 import FAQPage from './pages/FAQPage'
+import SponsorPage from './pages/SponsorPage'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
               <Route path='/404' element={<NotFound />} />
               <Route path='/Team' element={<TeamPage />} />
               <Route path='/FAQ' element={<FAQPage />} />
+              <Route path='/Sponsors' element={<SponsorPage />} />
             </Route>
 
           </Routes>
