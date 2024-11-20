@@ -74,7 +74,7 @@ const Team = () => {
                     {
                         coordinatorTeamList.map((team, index) => (
                             <div className="flex flex-col justify-center bg-purple-950 rounded-2xl py-2 px-2 pt-28 " key={index}>
-                                <div className="flex flex-col items-center text-center rounded-2xl bg-purple-50 h-full px-2">
+                                <div className="flex flex-col items-center text-center rounded-2xl bg-white h-full px-2">
                                     <img src={team.img} className="w-36 h-36 rounded-full -mt-20 select-none object-cover bg-purple-50" />
                                     <h2 className="font-black text-red-900 text-lg py-2">{team.name}</h2>
                                     <p className="text-md font-semibold">{team.position}</p>
