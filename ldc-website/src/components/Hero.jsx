@@ -33,7 +33,7 @@ const Hero = () => {
                 <h1 className='font-bold md:text-3xl lg:text-5xl text-2xl flex text-red-900'>Leadership Development Conference</h1>
                 <h2 className='font-medium md:text-xl lg:text-2xl text-lg md:py-3 lg:py-6 py-2'>{dateOfEvent} • In-person Event • McMaster University</h2>
                 <p className='font-medium md:text-md lg:text-lg text-sm '>{eventInfo}</p>
-                <a className='font-normal md:text-md lg:text-lg text-sm pt-4 underline' href=''>Interested in becoming a sponsor?</a>
+                <a className='font-normal md:text-md lg:text-lg text-sm pt-4 underline' href='mailto:ldcc@macengsociety.ca'>Interested in becoming a sponsor?</a>
                 
                 <div className='flex text-center items-center justify-center mt-4 md:gap-1'>
                     {Links.map((link, index) => (
