@@ -20,7 +20,7 @@ const FAQ = () => {
         {/* 
         Section is for topic grid and controls the number of coloumns as well as how they look    
         */}
-            <section className="bg-gradient-to-b from-blue-50 to-orange-50 max-w-screen-xl w-full grid gap-6 grid-cols-1 md:grid-cols-2 flex">
+            <section className="bg-gradient-to-b from-blue-50 to-orange-50 max-w-screen-xl w-full justify-center grid gap-6 grid-cols-1 md:grid-cols-2 flex">
                 {topics.map((topic, index) => (
                 <div key={index} className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-lg font-semibold text-gray-800">{topic.title}</h3>
