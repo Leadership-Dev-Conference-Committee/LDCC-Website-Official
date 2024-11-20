@@ -1,5 +1,6 @@
-import Footer from "../components/Footer"
 import FAQ from "../components/FAQ"
+import Footer from "../components/Footer"
+
 
 const FAQPage = () => {
     return (
