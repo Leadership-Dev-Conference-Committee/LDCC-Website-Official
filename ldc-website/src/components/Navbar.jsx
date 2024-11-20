@@ -65,11 +65,10 @@ const Navbar = () => {
                         <ul className="flex-col justify-start flex text-left -mt-2 gap-2">
                         {navLinks.map((item) => (
                             <li className="font-medium py-2 hover:text-red-900 transition " key={item} >
-                            {/* <a href={item.link}> {item.title}</a> */}
                                 <Link to={item.path} onClick={() => { setOpen((open) => !open); window.scrollTo(0, 0); }} className='cursor-pointer select-none' >{item.title}</Link>
                             </li>
                         ))}
-                            <a className='bg-purple-950 text-slate-100 font-normal text-sm px-2 py-1 rounded-lg' href='#'>Register Now</a>
+                            <a className='bg-purple-950 text-slate-100 font-normal text-sm px-2 py-1 mt-2 rounded-lg' href='#'>Register Now</a>
                         </ul>
                     </div>
 
