@@ -15,7 +15,7 @@ const FAQ = () => {
     {
       title: "Where and when is the conference",
       description:
-        "The event will be held on Febuary 4th at CIBC Hall, at the McMaster University campus in Hamilton, Ontario.",
+        "The event will be held on Febuary 25th at CIBC Hall, at the McMaster University campus in Hamilton, Ontario.",
     },
     {
       title:
