@@ -16,10 +16,10 @@ const Navbar = () => {
             title: 'Agenda', 
             path: '/404' 
         },
-        { 
-            title: 'Speakers', 
-            path: '/404' 
-        },
+        // { 
+        //     title: 'Speakers', 
+        //     path: '/404' 
+        // },
         { 
             title: 'Sponsors', 
             path: '/404' 
