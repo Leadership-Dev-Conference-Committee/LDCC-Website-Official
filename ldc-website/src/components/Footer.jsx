@@ -79,7 +79,7 @@ const Footer = () => {
                     ))}
                 </div>
 
-                <a className='font-normal md:text-sm text-xs underline' href=''>Become a sponsor!</a>
+                <a className='font-normal md:text-sm text-xs underline' href='mailto:ldcc@macengsociety.ca'>Become a sponsor!</a>
 
                 <p className="text-xs pt-2">Copyright @ {new Date().getFullYear()} Leadership Development Conference</p>
         </footer>
