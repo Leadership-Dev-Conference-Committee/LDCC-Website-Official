@@ -38,7 +38,7 @@ const Sponsors = () => {
                 The LDC is only made possible through the generous support of our sponsors - by partnering with us, you directly contribute to empowering future engineers, innovators, and leaders.
                 </p>
                 <div className="flex items-center text-center md:gap-8 gap-4 pt-6">
-                    <a className='bg-purple-950 text-slate-100 font-normal md:text-md px-3 py-2 text-sm rounded-xl hover:bg-red-900 transition' href='#'>Become a sponsor!</a>
+                    <a className='bg-purple-950 text-slate-100 font-normal md:text-md px-3 py-2 text-sm rounded-xl hover:bg-red-900 transition' href='mailto:ldcc@macengsociety.ca'>Become a sponsor!</a>
                     <a className='bg-purple-950 text-slate-100 font-normal md:text-md px-3 py-2 text-sm rounded-xl hover:bg-red-900 transition' href='#'>Sponsorship Package </a>
                 </div>
             </div>
