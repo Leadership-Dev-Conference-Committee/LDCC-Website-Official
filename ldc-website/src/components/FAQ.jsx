@@ -15,13 +15,13 @@ const FAQ = () => {
     {
       title: "Where and when is the conference",
       description:
-        "The event will be held on Febuary 25th at CIBC Hall, at the McMaster University campus in Hamilton, Ontario.",
+        "The event will be held on February 25th at CIBC Hall, at the McMaster University campus in Hamilton, Ontario.",
     },
     {
       title:
         "Is the conference open to students from all disciplines or only engineering?",
       description:
-        "While the conference is tailored for engineering students, attendees from all disciplines interested in personal branding and career growth are welcome to join.",
+        "While the conference is tailored for engineering students, attendees from all disciplines interested in engineering, personal branding and career growth are welcome to join.",
     },
     {
       title: "What topics will be covered during the conference?",
@@ -36,7 +36,7 @@ const FAQ = () => {
       title:
         "Will there be opportunities to network with industry professionals?",
       description:
-        "Yes, there will be dedicated networking sessions with industry professionals, senior students who have gotten great internships, and recruiters from leading companies.",
+        "Yes, there will be dedicated networking sessions with industry professionals, students who have experience with coops in the industry, and recruiters from leading companies.",
     },
     {
       title: "Is this the first year LDC is running?",
@@ -46,7 +46,7 @@ const FAQ = () => {
     {
       title: "Do I have to pay to attend the event?",
       description:
-        "Absolutely not. This event is completely free; however, space is limitted!",
+        "Absolutely not. This event is completely free; however, space is limited!",
     },
     {
       title:
