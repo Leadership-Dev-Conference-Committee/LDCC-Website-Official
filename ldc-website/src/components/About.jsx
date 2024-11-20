@@ -12,13 +12,13 @@ import { TbMapPin2 } from "react-icons/tb";
 const About = () => {
 
     //Update date when event date is confirmed
-    const dateOfEvent = ['Date: TBD']
+    const dateOfEvent = ['Date: Tuesday Febuary 25th, 2025']
 
     //Update time when event time is confirmed
     const timeOfEvent = ['Timings: TBD']
 
     //Update hall when exact location is confirmed
-    const hallOfEvent = ['']
+    const hallOfEvent = ['CIBC Hall']
 
     const eventList = [
         {
@@ -63,7 +63,7 @@ const About = () => {
                             </div>
                             <div className='flex gap-2 items-center'>
                                 < TbMapPin2 />
-                                <p>McMaster University {hallOfEvent}</p>
+                                <p>McMaster University, {hallOfEvent}</p>
                             </div>
                         </section>
 
