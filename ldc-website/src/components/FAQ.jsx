@@ -64,7 +64,7 @@ const FAQ = () => {
           </h1>
         </div>
 
-        <article className="flex flex-col items-between max-w-screen-xl w-full">
+        <article className="flex flex-col items-between max-w-screen-xl w-full -mt-4">
           <h2 className="font-semibold md:text-2xl lg:text-3xl text-xl flex text-red-900 max-w-screen-md">
             Answers to some of our Frequently Asked Questions.
           </h2>

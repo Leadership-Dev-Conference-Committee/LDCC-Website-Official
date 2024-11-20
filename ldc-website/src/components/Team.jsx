@@ -69,7 +69,7 @@ const Team = () => {
         <main className="bg-gradient-to-b from-blue-50 to-orange-50 flex flex-col items-center px-10 pt-5 pb-14">
             <section className="flex flex-col justify-between max-w-screen-xl w-full gap-14">
                 <h1 className='flex justify-start font-bold md:text-3xl lg:text-5xl text-2xl text-red-900 border-b border-purple-950'>Team</h1>
-                <div className="grid lg:grid-cols-4 md:grid-cols-3 min-[500px]:grid-cols-2 grid-cols-1 gap-6">
+                <div className="grid lg:grid-cols-4 md:grid-cols-3 min-[500px]:grid-cols-2 grid-cols-1 gap-6 -mt-4">
 
                     {
                         coordinatorTeamList.map((team, index) => (

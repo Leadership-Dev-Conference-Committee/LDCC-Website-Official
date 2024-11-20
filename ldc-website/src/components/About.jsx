@@ -45,9 +45,9 @@ const About = () => {
 
     return (
         <main className='flex flex-col gap-24 bg-gradient-to-b from-blue-50 to-orange-50 pt-5 px-10 pb-14'>
-            <section className='flex flex-col gap-24 items-center'>
+            <section className='flex flex-col gap-14 items-center'>
                 <h1 className='flex justify-start max-w-screen-xl w-full font-bold md:text-3xl lg:text-5xl text-2xl text-red-900 border-b border-purple-950'>About</h1>
-                <article className="flex justify-between max-w-screen-xl w-full items-center -mt-10 gap-4">
+                <article className="flex justify-between max-w-screen-xl w-full items-center -mt-4 gap-4">
                     <div className='flex flex-col text-start'>
                         <h1 className='font-semibold md:text-2xl lg:text-3xl text-xl flex text-red-900 max-w-screen-md'>Welcome to McMaster's Annual Leadership Development Conference '25</h1>
                         <p className='font-medium md:text-md lg:text-lg text-sm my-5'>Join McMaster Engineering students in the <strong>largest student run engineering conference!</strong></p>
@@ -123,7 +123,7 @@ const About = () => {
                     </div>
                 </article>
 
-                <img src={AboutBg} alt="LDC Banner" className="w-3/4 flex bg-cover bg-bottom select-none opacity-90 -mt-24" />
+                <img src={AboutBg} alt="LDC Banner" className="w-3/4 flex bg-cover bg-bottom select-none opacity-90 -mt-14" />
        
 
             </section>
