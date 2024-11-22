@@ -9,6 +9,7 @@ import { FaGlobe } from "react-icons/fa";
 import Dhruv from '/src/assets/TeamPFP/DhruvPFP.jpg';
 import Jackie from '/src/assets/TeamPFP/JackiePFP.png';
 import Deea from '/src/assets/TeamPFP/DeeaPFP.png';
+import Laiba from '/src/assets/TeamPFP/LaibaPFP.png'
 
 const Team = () => {
 
@@ -61,6 +62,17 @@ const Team = () => {
                 email: 'mailto:sahadeea24@gmail.com'
             },
             optionalParagraph: 'Second year Civil Engineering Student at McMaster University'
+        },
+        {
+            name: 'Laiba Yousafzai',
+            position: 'VP Outreach',
+            img: Laiba,
+            social: {
+                linkedin: 'https://www.linkedin.com/in/laiba-yousafzai-8979a8251/',
+                instagram: 'https://https://www.instagram.com/laiba_yousafzai24/',
+                email: 'mailto:yousafzl@mcmaster.ca'
+            },
+            optionalParagraph: 'First year Engineering student at McMaster University'
         },
 
     ] 
