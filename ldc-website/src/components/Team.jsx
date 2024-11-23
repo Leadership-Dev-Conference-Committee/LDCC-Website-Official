@@ -12,6 +12,8 @@ import Deea from '/src/assets/TeamPFP/DeeaPFP.png';
 import Laiba from '/src/assets/TeamPFP/LaibaPFP.png'
 import Deepinder from '/src/assets/TeamPFP/DeepinderPFP.png'
 import Gurraj from '/src/assets/TeamPFP/GurrajPFP.png'
+import Omar from '/src/assets/TeamPFP/OmarPFP.png'
+
 
 
 const Team = () => {
@@ -98,6 +100,19 @@ const Team = () => {
                 instagram: 'https://www.instagram.com/gurraj0'
             },
             optionalParagraph: 'Second Year Automation Engineering Student at McMaster University'
+        },
+        {
+            name: 'Omar Shafie',
+            position: 'VP Finance',
+            img: Omar,
+            social: {
+                linkedin: 'https://www.linkedin.com/in/-omarshafie',
+                email: 'mailto:shafieo@mcmaster.ca',
+                instagram: 'https://www.instagram.com/omar.shafie/',
+                github: 'https://github.com/omar-shafie',
+                website: 'https://omarshafie.notion.site/'
+            },
+            optionalParagraph: 'Level II Mechatronics Engineering and Management student'
         },
 
     ] 
