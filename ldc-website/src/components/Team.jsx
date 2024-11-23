@@ -10,6 +10,7 @@ import Dhruv from '/src/assets/TeamPFP/DhruvPFP.jpg';
 import Jackie from '/src/assets/TeamPFP/JackiePFP.png';
 import Deea from '/src/assets/TeamPFP/DeeaPFP.png';
 import Laiba from '/src/assets/TeamPFP/LaibaPFP.png'
+import Deepinder from '/src/assets/TeamPFP/DeepinderPFP.png'
 
 const Team = () => {
 
@@ -73,6 +74,17 @@ const Team = () => {
                 email: 'mailto:yousafzl@mcmaster.ca'
             },
             optionalParagraph: 'First year Engineering student at McMaster University'
+        },
+        {
+            name: 'Deepinder Kaur',
+            position: 'VP Media & Content',
+            img: Deepinder,
+            social: {
+                linkedin: 'https://www.linkedin.com/in/deepinderkaur-dk?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+                email: 'mailto:deepinderkaur0513@gmail.com',
+                website: 'https://dkaur0513.wixsite.com/dkaccessories'
+            },
+            optionalParagraph: 'Second year Honours Commerce student at McMaster University'
         },
 
     ] 
