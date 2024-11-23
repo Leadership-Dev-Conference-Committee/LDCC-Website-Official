@@ -11,6 +11,8 @@ import Jackie from '/src/assets/TeamPFP/JackiePFP.png';
 import Deea from '/src/assets/TeamPFP/DeeaPFP.png';
 import Laiba from '/src/assets/TeamPFP/LaibaPFP.png'
 import Deepinder from '/src/assets/TeamPFP/DeepinderPFP.png'
+import Gurraj from '/src/assets/TeamPFP/GurrajPFP.png'
+
 
 const Team = () => {
 
@@ -51,7 +53,7 @@ const Team = () => {
                 email: 'mailto:chokshid@mcmaster.ca',
                 website: 'https://www.dhruvchokshi.co'
             },
-            optionalParagraph: 'Second year Software Engineering student at McMaster University.'
+            optionalParagraph: 'Second year Software Engineering student at McMaster University'
         },
         {
             name: 'Deea Saha',
@@ -85,6 +87,17 @@ const Team = () => {
                 website: 'https://dkaur0513.wixsite.com/dkaccessories'
             },
             optionalParagraph: 'Second year Honours Commerce student at McMaster University'
+        },
+        {
+            name: 'Gurraj Grewal',
+            position: 'VP Outreach',
+            img: Gurraj,
+            social: {
+                linkedin: 'https://www.linkedin.com/in/gurraj-grewal',
+                email: 'mailto:gurrajg16@gmail.com',
+                instagram: 'https://www.instagram.com/gurraj0'
+            },
+            optionalParagraph: 'Second Year Automation Engineering Student at McMaster University'
         },
 
     ] 
