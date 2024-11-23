@@ -33,8 +33,8 @@ const Sponsors = () => {
                     Sponsor Us
                 </h2>
                 <p className="font-medium md:text-md lg:text-lg text-sm mt-5">
-                The Leadership Development Conference is a student-led conference aiming to inspire the next generation of engineers.                 
-                Our conference team is dedicated to fostering leadership, growth and meaningfull connections among the Engineering body at McMaster.
+                The Leadership Development Conference is a conference for students, run by students - aiming to inspire the next generation of engineers.                 
+                Our conference team is dedicated to fostering leadership, growth and meaningfull connections among the Undergraduate Engineering body at McMaster.
                 The LDC is only made possible through the generous support of our sponsors - by partnering with us, you directly contribute to empowering future engineers, innovators, and leaders.
                 </p>
                 <div className="flex items-center text-center md:gap-8 gap-4 pt-6">
