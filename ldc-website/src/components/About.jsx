@@ -15,7 +15,7 @@ const About = () => {
     const dateOfEvent = ['Date: Tuesday Febuary 25th, 2025']
 
     //Update time when event time is confirmed
-    const timeOfEvent = ['Timings: TBD']
+    const timeOfEvent = ['Timings: 6:00 - 10:00 PM']
 
     //Update hall when exact location is confirmed
     const hallOfEvent = ['CIBC Hall']
@@ -42,7 +42,7 @@ const About = () => {
         <br/><br/>
     Through engaging presentations, speakers, networking opportunities, and linkedin headshots, LDC aims to provide participants with the tools they need to develop their leadership potential and build a strong personal brand aligning with their career goals.
         <br/><br/>
-    This year, the theme is <strong>building your Personal Brand!</strong>
+    This year, the theme is <strong><i>Build Your Personal Brand, Shape Your Future</i></strong>
     </p>
 
 
