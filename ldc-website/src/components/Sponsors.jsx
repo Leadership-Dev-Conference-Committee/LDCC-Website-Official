@@ -63,11 +63,11 @@ const Sponsors = () => {
           <section className="mb-14 mt-10 max-w-screen-lg w-full justify-center grid gap-6 grid-cols-1">
             {sponsors.map((sponsors, index) => (
               <div key={index} className="flex flex-col items-center text-center md:h-48 sm:h-40 h-32 p-10 bg-white rounded-lg shadow-md transition hover:scale-105">
-                <a href={sponsors.link} className="h-full w-full"></a>
+                <a href={sponsors.link} target="_blank" className="h-full w-full flex justify-center">
                 <img
                   src={sponsors.image}
                   className="h-full bg-white"
-                />
+                /></a>
               </div>
             ))}
           </section>
