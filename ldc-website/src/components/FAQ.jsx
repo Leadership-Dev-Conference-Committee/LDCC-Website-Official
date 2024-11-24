@@ -53,6 +53,30 @@ const FAQ = () => {
         "Will I get a 0.5% bonus for 1p13 or 1p10, as we got that last year?",
       description: "We are currently working to figure that out as well.",
     },
+    {
+      title:
+        "How can I prepare for the event?",
+      description: "Come prepared to network and engage with speakers. Think about what leadership and personal brand mean to you. Dress professionally, especially if you plan on getting a LinkedIn headshot!",
+    },
+    {
+      title:
+        "What can I expect from the event?",
+      description: 
+        <><li>Listen to inspiring keynote speakers and industry professionals.</li>
+        <li>Participate in networking sessions to connect with peers and industry leaders.</li>
+        <li>Receive professional LinkedIn headshots to enhance their online presence.</li>
+        <li>Learn practical skills for personal branding, leadership, and career growth.</li></>
+    },
+    {
+      title:
+        "How can I stay updated on event details?",
+      description: "Follow the LDC Instagram page or visit our website for updates on registration, speakers, and more details leading up to the conference.",
+    },
+    {
+      title:
+        "Are there any giveaways or prizes at the conference?",
+      description: "Yes, there will be prizes at the event. More information about the conference will be released soon!",
+    },
   ];
 
   return (
