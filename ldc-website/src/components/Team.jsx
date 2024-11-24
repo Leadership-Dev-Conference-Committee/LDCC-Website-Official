@@ -6,13 +6,15 @@ import { FaGithub } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 
 // Team component
+import Default from '/src/assets/newLogo.png';
 import Dhruv from '/src/assets/TeamPFP/DhruvPFP.jpg';
 import Jackie from '/src/assets/TeamPFP/JackiePFP.png';
 import Deea from '/src/assets/TeamPFP/DeeaPFP.png';
-import Laiba from '/src/assets/TeamPFP/LaibaPFP.png'
-import Deepinder from '/src/assets/TeamPFP/DeepinderPFP.png'
-import Gurraj from '/src/assets/TeamPFP/GurrajPFP.png'
-import Omar from '/src/assets/TeamPFP/OmarPFP.png'
+import Laiba from '/src/assets/TeamPFP/LaibaPFP.png';
+import Deepinder from '/src/assets/TeamPFP/DeepinderPFP.png';
+import Gurraj from '/src/assets/TeamPFP/GurrajPFP.png';
+import Omar from '/src/assets/TeamPFP/OmarPFP.png';
+import Natalie from '/src/assets/TeamPFP/NataliePFP.png';
 
 
 
@@ -113,6 +115,27 @@ const Team = () => {
                 website: 'https://omarshafie.notion.site/'
             },
             optionalParagraph: 'Level II Mechatronics Engineering and Management student'
+        },
+        {
+            name: 'Natalie Cheung',
+            position: 'VP Events',
+            img: Natalie,
+            social: {
+                email: 'mailto:ncheung60@gmail.com',
+            },
+            optionalParagraph: 'Second year Engineering Physics student at McMaster University'
+        },
+        {
+            name: 'Anas Abdur Rahman',
+            position: 'VP Website Developer',
+            img: Default,
+            social: {
+                linkedin: 'https://www.linkedin.com/in/anas-abdur-rahman/',
+                email: 'mailto:rahmanabduranas@gmail.com',
+                instagram: 'https://www.instagram.com/anas_a.rahman/',
+                github: 'https://github.com/AnasR1',
+            },
+            optionalParagraph: 'Software Engineering student, with a passion for innovation.'
         },
 
     ] 
