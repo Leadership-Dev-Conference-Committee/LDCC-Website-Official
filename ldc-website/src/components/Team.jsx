@@ -15,6 +15,8 @@ import Deepinder from '/src/assets/TeamPFP/DeepinderPFP.png';
 import Gurraj from '/src/assets/TeamPFP/GurrajPFP.png';
 import Omar from '/src/assets/TeamPFP/OmarPFP.png';
 import Natalie from '/src/assets/TeamPFP/NataliePFP.png';
+import Aaditya from '/src/assets/TeamPFP/AadityaPFP.png';
+
 
 
 
@@ -137,6 +139,18 @@ const Team = () => {
             },
             optionalParagraph: 'Software Engineering student, with a passion for innovation.'
         },
+        {
+            name: 'Aaditya Anil',
+            position: 'VP Sponsorship',
+            img: Aaditya,
+            social: {
+                linkedin: 'https://www.linkedin.com/in/anilaaditya/',
+                email: 'mailto:aadianil297@gmail.com',
+                github: 'https://github.com/anila4',
+            },
+            optionalParagraph: 'Computer Engineering student, likes getting things done right.'
+        },
+
 
     ] 
 
