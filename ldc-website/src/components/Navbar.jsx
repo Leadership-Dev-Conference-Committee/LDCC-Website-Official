@@ -68,7 +68,7 @@ const Navbar = () => {
                                 <Link to={item.path} onClick={() => { setOpen((open) => !open); window.scrollTo(0, 0); }} className='cursor-pointer select-none' >{item.title}</Link>
                             </li>
                         ))}
-                            <a className='bg-purple-950 text-slate-100 font-normal text-sm px-2 py-1 mt-2 rounded-lg' href='#'>Registration Open Soon!</a>
+                            <Link className='bg-purple-950 text-slate-100 font-normal text-sm px-2 py-1 mt-2 rounded-lg' onClick={() => setOpen((open) => !open)} to={'/Register'}>Registration Open Soon!</Link>
                         </ul>
                     </div>
 
