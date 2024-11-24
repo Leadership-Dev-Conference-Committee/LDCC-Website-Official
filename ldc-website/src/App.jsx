@@ -10,6 +10,7 @@ import NotFound from './pages/404NFPage'
 import TeamPage from './pages/TeamPage'
 import FAQPage from './pages/FAQPage'
 import SponsorPage from './pages/SponsorPage'
+import RegisterPage from './pages/RegisterPage'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
               <Route path='/Team' element={<TeamPage />} />
               <Route path='/FAQ' element={<FAQPage />} />
               <Route path='/Sponsors' element={<SponsorPage />} />
+              <Route path='/Register' element={<RegisterPage />} />
             </Route>
 
           </Routes>
