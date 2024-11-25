@@ -27,7 +27,7 @@ const Team = () => {
     //     name: 'First Last',
     //     position: 'Position',
     //     img: Imported image,
-    //     social: {
+    //     social: { // Can add zero upto five different links.
     //         github: 'Link',
     //         linkedin: 'Link',
     //         instagram: 'Link',
