@@ -16,13 +16,13 @@ import Gurraj from '/src/assets/TeamPFP/GurrajPFP.png';
 import Omar from '/src/assets/TeamPFP/OmarPFP.png';
 import Natalie from '/src/assets/TeamPFP/NataliePFP.png';
 import Aaditya from '/src/assets/TeamPFP/AadityaPFP.png';
-
-
+import Trisha from '/src/assets/TeamPFP/TrishaPFP.png';
+import Audrey from '/src/assets/TeamPFP/AudreyPFP.png';
 
 
 const Team = () => {
 
-    // To add members, update team list with the following method; if there is nothing to add, leave it empty:
+    // To add members, update team list with the following object; if there is nothing to add, leave it empty:
     // {
     //     name: 'First Last',
     //     position: 'Position',
@@ -150,7 +150,27 @@ const Team = () => {
             },
             optionalParagraph: 'Computer Engineering student, likes getting things done right.'
         },
-
+        {
+            name: 'Trisha Balaji',
+            position: 'VP Outreach',
+            img: Trisha,
+            social: {
+                linkedin: 'https://www.linkedin.com/in/trisha-balaji/',
+                email: 'mailto:balajt1@mcmaster.ca',
+            },
+            optionalParagraph: 'B. Tech Automation Software Student, passionate about making connections'
+        },
+        {
+            name: 'Audrey Gamboa',
+            position: 'VP Outreach',
+            img: Audrey,
+            social: {
+                linkedin: 'http://www.linkedin.com/in/audreygamboa',
+                email: 'mailto:audrey.gamboa@outlook.com',
+                instagram: 'https://www.instagram.com/audreyxmaye/'
+            },
+            optionalParagraph: 'Third year Electrical Engineering student at McMaster University'
+        },
 
     ] 
 
