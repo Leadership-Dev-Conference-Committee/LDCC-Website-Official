@@ -18,6 +18,8 @@ import Natalie from '/src/assets/TeamPFP/NataliePFP.png';
 import Aaditya from '/src/assets/TeamPFP/AadityaPFP.png';
 import Trisha from '/src/assets/TeamPFP/TrishaPFP.png';
 import Audrey from '/src/assets/TeamPFP/AudreyPFP.png';
+import Devin from '/src/assets/TeamPFP/DevinPFP.png';
+
 
 
 const Team = () => {
@@ -170,6 +172,16 @@ const Team = () => {
                 instagram: 'https://www.instagram.com/audreyxmaye/'
             },
             optionalParagraph: 'Third year Electrical Engineering student at McMaster University'
+        },
+        {
+            name: 'Devin Racco',
+            position: 'VP Finance',
+            img: Devin,
+            social: {
+                linkedin: 'https://www.linkedin.com/in/devin-racco-4a3a652a7/',
+                email: 'mailto:devin.racco@gmail.com',
+            },
+            optionalParagraph: '2nd Year Degroote Commerce Student'
         },
 
     ] 
