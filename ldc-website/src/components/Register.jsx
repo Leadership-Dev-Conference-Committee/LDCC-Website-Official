@@ -1,13 +1,17 @@
 import { Link, useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const Register = () => {
   const navigate = useNavigate();
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const Submit = async (e) => {
     e.preventDefault(); // Prevent page refresh
 
     const formElement = document.getElementById("form");
     const formDatabase = new FormData(formElement);
+
+    setIsSubmitting(true);
 
     try {
       const response = await fetch(
@@ -40,7 +44,7 @@ const Register = () => {
 
         <article className="flex flex-col items-between max-w-screen-lg w-full -mt-4">
           <h2 className="font-semibold md:text-2xl lg:text-3xl text-xl flex text-red-900 max-w-screen-md">
-            The form to register opens soon!
+            The form to register is now open!
           </h2>
           <p className="font-medium md:text-md lg:text-lg text-sm mt-2">
             Please note that the official registration will be available on Oscar plus closer to the date; however, to secure a spot on the priority list (and to give us an idea of turn-out rate) <strong>please fill out this form</strong>.
@@ -158,9 +162,10 @@ const Register = () => {
           {/* Submit button */}
           <section className="grid grid-cols-1 gap-y-6 w-full">
             <div className="flex text-center justify-center">
-             <button type="submit" className="w-full border-2 p-4 rounded-2xl bg-purple-950 text-white font-medium hover:bg-red-900 transition">
-                Submit
-             </button>
+            <button type="submit" disabled={isSubmitting} className={`w-full p-4 rounded-2xl text-white font-medium ${isSubmitting ? "cursor-disabled bg-gray-500" : "transition bg-purple-950 hover:bg-red-900"}`}>
+              {isSubmitting ? "Submitting..." : "Submit"}
+            </button>
+
             </div>
           </section>
 
