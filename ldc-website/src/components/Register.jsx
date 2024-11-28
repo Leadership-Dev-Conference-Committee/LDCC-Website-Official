@@ -1,37 +1,33 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Register = () => {
+  const navigate = useNavigate();
 
-  function Submit(e) {
+  const Submit = async (e) => {
     e.preventDefault(); // Prevent page refresh
-    
+
     const formElement = document.getElementById("form");
     const formDatabase = new FormData(formElement);
-    
-    fetch(
-      "https://script.google.com/macros/s/AKfycbw7wYEqswJQlp_ozAtg6_C9LuRfjbZJjvQYjr8wE0VwH2lDC546M4oRVLgwO5qp_9cRRQ/exec",
-      {
-        method: "POST",
-        body: formDatabase,
-      }
-    )
-      .then((res) => res.text()) // Process plain text response
-      .then((data) => {
-        console.log("Success:", data); // Display success message
-        // Show a success message (optional)
-        alert("Form submitted successfully!");
 
-        // Reload the page after a short delay (optional)
-        setTimeout(() => {
-          window.location.reload();
-        }, 1000);
-      })
-      
-      .catch((error) => {
-        console.error("Error:", error);
-      });
-  }
-  
+    try {
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbw7wYEqswJQlp_ozAtg6_C9LuRfjbZJjvQYjr8wE0VwH2lDC546M4oRVLgwO5qp_9cRRQ/exec",
+        {
+          method: "POST",
+          body: formDatabase,
+        }
+      );
+
+      const data = await response.text();
+      console.log("Success:", data);
+
+      // Redirect user to another page on success
+      navigate("/Confirmation");
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
+
 
   return (
     <main className="flex flex-col bg-gradient-to-b from-blue-50 to-orange-50 pt-5 px-10 pb-10">
@@ -161,10 +157,10 @@ const Register = () => {
 
           {/* Submit button */}
           <section className="grid grid-cols-1 gap-y-6 w-full">
-            <div className="grid">
-              <button type="submit" className="w-full border-2 p-4 rounded-2xl bg-purple-950 text-white font-medium hover:bg-red-900 transition">
+            <div className="flex text-center justify-center">
+             <button type="submit" className="w-full border-2 p-4 rounded-2xl bg-purple-950 text-white font-medium hover:bg-red-900 transition">
                 Submit
-              </button>
+             </button>
             </div>
           </section>
 
