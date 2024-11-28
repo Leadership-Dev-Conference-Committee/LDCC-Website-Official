@@ -3,23 +3,27 @@ import { Link } from "react-router-dom";
 const Register = () => {
 
   function Submit(e) {
+    e.preventDefault(); // Prevent page refresh
+    
     const formElement = document.getElementById("form");
     const formDatabase = new FormData(formElement);
+    
     fetch(
       "https://script.google.com/macros/s/AKfycbw7wYEqswJQlp_ozAtg6_C9LuRfjbZJjvQYjr8wE0VwH2lDC546M4oRVLgwO5qp_9cRRQ/exec",
       {
         method: "POST",
-        body: formDatabase
+        body: formDatabase,
       }
     )
-      .then((res) => res.json())
+      .then((res) => res.text()) // Process plain text response
       .then((data) => {
-        console.log(data);
+        console.log("Success:", data); // Display success message
       })
       .catch((error) => {
-        console.log(error);
+        console.error("Error:", error);
       });
   }
+  
 
   return (
     <main className="flex flex-col bg-gradient-to-b from-blue-50 to-orange-50 pt-5 px-10 pb-10">
