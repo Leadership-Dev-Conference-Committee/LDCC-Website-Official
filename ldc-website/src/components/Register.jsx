@@ -18,7 +18,15 @@ const Register = () => {
       .then((res) => res.text()) // Process plain text response
       .then((data) => {
         console.log("Success:", data); // Display success message
+        // Show a success message (optional)
+        alert("Form submitted successfully!");
+
+        // Reload the page after a short delay (optional)
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
       })
+      
       .catch((error) => {
         console.error("Error:", error);
       });
