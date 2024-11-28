@@ -150,7 +150,7 @@ const Register = () => {
           {/* Submit button */}
           <section className="grid grid-cols-1 gap-y-6 w-full">
             <div className="grid">
-              <button type="submit" className="w-full border-2 p-4 rounded-2xl bg-purple-950 text-white font-medium hover:bg-red-900 transition cursor-not-allowed" disabled>
+              <button type="submit" className="w-full border-2 p-4 rounded-2xl bg-purple-950 text-white font-medium hover:bg-red-900 transition">
                 Submit
               </button>
             </div>
