@@ -8,35 +8,35 @@ const Agenda = () => {
         "Introduction to the night and events that will be happening.",
       color: "bg-blue-500",
       icon: "📍",
-      image: "/path/to/image1.jpg",
+      image: "/src/assets/about-img1.png",
     },
     {
       stage: "5pm - 6pm: Resume building workshops",
       description: "Resume Workship presented by:",
       color: "bg-red-500",
       icon: "📝",
-      image: "/assets/image1.jpg",
+      image: "/src/assets/about-img2.png",
     },
     {
       stage: "6pm - 7pm:",
       description: "Information panel presented by: .",
       color: "bg-orange-500",
       icon: "🔨",
-      image: "/assets/image1.jpg",
+      image: "/src/assets/about-img1.png",
     },
     {
       stage: "7pm - 8pm: Presentation",
       description: "Workshop presented by: ",
       color: "bg-green-500",
       icon: "📅",
-      image: "/assets/image1.jpg",
+      image: "/src/assets/about-img2.png",
     },
     {
-      stage: "8pm-9m: Networking with professionals",
+      stage: "8pm - 9pm: Networking with professionals",
       description: "Allocated time to network with inudstry professionals",
       color: "bg-purple-500",
       icon: "🏗️",
-      image: "/assets/image1.jpg",
+      image: "/src/assets/about-img1.png",
     },
   ];
 
@@ -53,32 +53,49 @@ const Agenda = () => {
           <div className="absolute w-1 bg-gray-300 h-full"></div>
 
           {/* Stages */}
-          <div className="relative flex flex-col gap-24 w-full">
-            {stages.map((stage, index) => (
-              <div
-                key={index}
-                className={`flex ${
-                  index % 2 == 0 ? "justify-start pr-12" : "justify-end pl-12"
-                } items-center relative`}
-              >
-                {/* Icon */}
-                <div
-                  className={`absolute left-1/2 transform -translate-x-1/2 w-12 h-12 flex items-center justify-center rounded-full text-white ${stage.color}`}
-                >
-                  {stage.icon}
-                </div>
+          <div className="relative flex flex-col w-full">
+            {stages.map((stage, index) => {
+              let justifyClass = "justify-end"; 
+              if (index % 2 === 0) {
+                justifyClass = "justify-start";
+              }
 
-                {/* Content */}
-                <div className="w-1/2 flex flex-col items-center gap-12">
-                  <h2 className="text-xl font-bold text-gray-800 text-center">
-                    {stage.stage}
-                  </h2>
-                  <p className="text-gray-700 text-center">
-                    {stage.description}
-                  </p>
+              return (
+                <div
+                  key={index}
+                  className={`flex ${justifyClass} items-center relative w-full`}
+                >
+                  {/* Icon */}
+                  <div
+                    className={`absolute left-1/2 transform -translate-x-1/2 w-12 h-12 flex items-center justify-center rounded-full text-white ${stage.color}`}
+                  >
+                    {stage.icon}
+                  </div>
+
+                  {/* Content */}
+                  <div
+                    className={`flex flex-col items-center gap-4 w-[40%] ${
+                      index % 2 === 0 ? "text-right" : "text-left"
+                    }`}
+                  >
+                    <h2 className="text-xl font-bold text-gray-800">
+                      {stage.stage}
+                    </h2>
+                    <p className="text-gray-700 text-center">{stage.description}</p>
+
+                    {/* Image Section */}
+                    {stage.image && (
+                      <div className="flex justify-center mt-4">
+                        <img
+                          src={stage.image}
+                          className="w-full max-w-sm rounded-lg shadow-lg"
+                        />
+                      </div>
+                    )}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>
