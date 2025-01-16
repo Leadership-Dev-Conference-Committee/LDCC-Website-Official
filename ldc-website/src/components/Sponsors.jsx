@@ -39,7 +39,7 @@ const Sponsors = () => {
                 </p>
                 <div className="flex items-center text-center md:gap-8 gap-4 pt-6">
                     <a className='bg-purple-950 text-slate-100 font-normal md:text-md px-3 py-2 text-sm rounded-xl hover:bg-red-900 transition' href='mailto:ldcc@macengsociety.ca'>Become a sponsor!</a>
-                    <a className='bg-purple-950 text-slate-100 font-normal md:text-md px-3 py-2 text-sm rounded-xl hover:bg-red-900 transition' href='#'>Sponsorship Package </a>
+                    <a className='bg-purple-950 text-slate-100 font-normal md:text-md px-3 py-2 text-sm rounded-xl hover:bg-red-900 transition' href='https://drive.google.com/file/d/1FltWZwBrHqG_0op42SRUp5Jl7Ujy0w_h/view?usp=sharing'>Sponsorship Package </a>
                 </div>
             </div>
             <div className="flex flex-col items-center text-center">

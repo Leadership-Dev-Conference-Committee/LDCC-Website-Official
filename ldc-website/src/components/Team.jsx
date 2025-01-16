@@ -6,24 +6,30 @@ import { FaGithub } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 
 // Team component
+import Default from '/src/assets/newLogo.png';
 import Dhruv from '/src/assets/TeamPFP/DhruvPFP.jpg';
 import Jackie from '/src/assets/TeamPFP/JackiePFP.png';
 import Deea from '/src/assets/TeamPFP/DeeaPFP.png';
-import Laiba from '/src/assets/TeamPFP/LaibaPFP.png'
-import Deepinder from '/src/assets/TeamPFP/DeepinderPFP.png'
-import Gurraj from '/src/assets/TeamPFP/GurrajPFP.png'
-import Omar from '/src/assets/TeamPFP/OmarPFP.png'
+import Laiba from '/src/assets/TeamPFP/LaibaPFP.png';
+import Deepinder from '/src/assets/TeamPFP/DeepinderPFP.png';
+import Gurraj from '/src/assets/TeamPFP/GurrajPFP.png';
+import Omar from '/src/assets/TeamPFP/OmarPFP.png';
+import Natalie from '/src/assets/TeamPFP/NataliePFP.png';
+import Aaditya from '/src/assets/TeamPFP/AadityaPFP.png';
+import Trisha from '/src/assets/TeamPFP/TrishaPFP.png';
+import Audrey from '/src/assets/TeamPFP/AudreyPFP.png';
+import Devin from '/src/assets/TeamPFP/DevinPFP.png';
 
 
 
 const Team = () => {
 
-    // To add members, update team list with the following method; if there is nothing to add, leave it empty:
+    // To add members, update team list with the following object; if there is nothing to add, leave it empty:
     // {
     //     name: 'First Last',
     //     position: 'Position',
     //     img: Imported image,
-    //     social: {
+    //     social: { // Can add zero upto five different links.
     //         github: 'Link',
     //         linkedin: 'Link',
     //         instagram: 'Link',
@@ -113,6 +119,69 @@ const Team = () => {
                 website: 'https://omarshafie.notion.site/'
             },
             optionalParagraph: 'Level II Mechatronics Engineering and Management student'
+        },
+        {
+            name: 'Natalie Cheung',
+            position: 'VP Events',
+            img: Natalie,
+            social: {
+                email: 'mailto:ncheung60@gmail.com',
+            },
+            optionalParagraph: 'Second year Engineering Physics student at McMaster University'
+        },
+        {
+            name: 'Anas Abdur Rahman',
+            position: 'VP Website Developer',
+            img: Default,
+            social: {
+                linkedin: 'https://www.linkedin.com/in/anas-abdur-rahman/',
+                email: 'mailto:rahmanabduranas@gmail.com',
+                instagram: 'https://www.instagram.com/anas_a.rahman/',
+                github: 'https://github.com/AnasR1',
+            },
+            optionalParagraph: 'Software Engineering student, with a passion for innovation.'
+        },
+        {
+            name: 'Aaditya Anil',
+            position: 'VP Sponsorship',
+            img: Aaditya,
+            social: {
+                linkedin: 'https://www.linkedin.com/in/anilaaditya/',
+                email: 'mailto:aadianil297@gmail.com',
+                github: 'https://github.com/anila4',
+            },
+            optionalParagraph: 'Computer Engineering student, likes getting things done right.'
+        },
+        {
+            name: 'Trisha Balaji',
+            position: 'VP Outreach',
+            img: Trisha,
+            social: {
+                linkedin: 'https://www.linkedin.com/in/trisha-balaji/',
+                email: 'mailto:balajt1@mcmaster.ca',
+            },
+            optionalParagraph: 'B. Tech Automation Software Student, passionate about making connections'
+        },
+        {
+            name: 'Audrey Gamboa',
+            position: 'VP Outreach',
+            img: Audrey,
+            social: {
+                linkedin: 'http://www.linkedin.com/in/audreygamboa',
+                email: 'mailto:audrey.gamboa@outlook.com',
+                instagram: 'https://www.instagram.com/audreyxmaye/'
+            },
+            optionalParagraph: 'Third year Electrical Engineering student at McMaster University'
+        },
+        {
+            name: 'Devin Racco',
+            position: 'VP Finance',
+            img: Devin,
+            social: {
+                linkedin: 'https://www.linkedin.com/in/devin-racco-4a3a652a7/',
+                email: 'mailto:devin.racco@gmail.com',
+            },
+            optionalParagraph: '2nd Year Degroote Commerce Student'
         },
 
     ] 

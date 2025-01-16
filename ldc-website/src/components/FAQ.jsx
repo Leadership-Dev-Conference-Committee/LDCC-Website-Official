@@ -36,7 +36,7 @@ const FAQ = () => {
       title:
         "Will there be opportunities to network with industry professionals?",
       description:
-        "Yes, there will be dedicated networking sessions with industry professionals, students who have experience with coops in the industry, and recruiters from leading companies.",
+        "Yes, there will be dedicated networking sessions with industry professionals, students who have experience in the industry, and recruiters from companies.",
     },
     {
       title: "Is this the first year LDC is running?",
@@ -53,6 +53,40 @@ const FAQ = () => {
         "Will I get a 0.5% bonus for 1p13 or 1p10, as we got that last year?",
       description: "We are currently working to figure that out as well.",
     },
+    {
+      title:
+        "How can I prepare for the event?",
+      description: "Come prepared to network and engage with speakers. Think about what leadership and personal brand mean to you. Dress professionally, especially if you plan on getting a LinkedIn headshot!",
+    },
+    {
+      title:
+        "What can I expect from the event?",
+      description: 
+        <><li>Listen to inspiring keynote speakers and industry professionals.</li>
+        <li>Participate in networking sessions to connect with peers and industry leaders.</li>
+        <li>Receive professional LinkedIn headshots to enhance their online presence.</li>
+        <li>Learn practical skills for personal branding, leadership, and career growth.</li></>
+    },
+    {
+      title:
+        "How can I stay updated on event details?",
+      description: "Follow the LDC Instagram page or visit our website for updates on registration, speakers, and more details leading up to the conference.",
+    },
+    {
+      title:
+        "Are there any giveaways or prizes at the conference?",
+      description: "Yes, there will be prizes at the event. More information about the conference will be released soon!",
+    },
+    {
+      title:
+        "Will food and beverages be provided?",
+      description: "We are unsure about that at the moment; however, we are hoping to provide all our guests with the best experience possible.",
+    },
+    {
+      title:
+        "What is the dress code?",
+      description: "Please come dressed in Business Casual or Semi-professional, especially because there will be time to network and take Linkedin headshots!. ",
+    },
   ];
 
   return (
@@ -66,7 +100,7 @@ const FAQ = () => {
 
         <article className="flex flex-col items-between max-w-screen-xl w-full -mt-4">
           <h2 className="font-semibold md:text-2xl lg:text-3xl text-xl flex text-red-900 max-w-screen-md">
-            Answers to some of our Frequently Asked Questions.
+            Answers to some of our most Frequently Asked Questions.
           </h2>
           <p className="font-medium md:text-md lg:text-lg text-sm mt-5">
             Do you have any questions? Well, we have <strong>Answers!</strong>{" "}
