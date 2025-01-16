@@ -14,7 +14,7 @@ const Navbar = () => {
         },
         { 
             title: 'Agenda', 
-            path: '/404' 
+            path: '/Agenda' 
         },
         // { 
         //     title: 'Speakers', 
