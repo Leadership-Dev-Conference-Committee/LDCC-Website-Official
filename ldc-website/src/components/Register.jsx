@@ -106,7 +106,7 @@ const Register = () => {
               </label>
               <input
                 id="Number"
-                placeholder="Student Number"
+                placeholder="123456789"
                 name="Number"
                 type="text"
                 required
@@ -123,7 +123,7 @@ const Register = () => {
               </label>
               <input
                 id="Program"
-                placeholder="Software Engineering"
+                placeholder="ie. Software Engineering"
                 name="Program"
                 type="text"
                 required
@@ -136,7 +136,7 @@ const Register = () => {
               </label>
               <input
                 id="Level"
-                placeholder="Level (ie. 2)"
+                placeholder="ie. 2"
                 name="Level"
                 type="text"
                 required
