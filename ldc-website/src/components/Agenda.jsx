@@ -1,7 +1,7 @@
 import React from "react";
 
 const Agenda = () => {
-  
+
   return (
     <div className="flex flex-col items-center gap-14 bg-gradient-to-b from-blue-50 to-orange-50 pt-5 px-10 pb-14">
       <h1 className='flex justify-start max-w-screen-xl w-full font-bold md:text-3xl lg:text-5xl text-2xl text-red-900 border-b border-purple-950'>Agenda</h1>
@@ -67,7 +67,7 @@ const Agenda = () => {
     <div className="timeline-start mb-10 md:text-end">
       <time className="font-mono italic">5:15 PM</time>
       <div className="text-lg font-black">Opening Remarks</div>
-      <p>Opening remarks will be given by the Co-Chairs and our Keynote speakers.</p>
+      <p>Opening remarks will be given by the Co-Chairs.</p>
       <p></p>
     </div>
     <hr />
