@@ -19,6 +19,7 @@ import Aaditya from '/src/assets/TeamPFP/AadityaPFP.png';
 import Trisha from '/src/assets/TeamPFP/TrishaPFP.png';
 import Audrey from '/src/assets/TeamPFP/AudreyPFP.png';
 import Devin from '/src/assets/TeamPFP/DevinPFP.png';
+import Amion from '/src/assets/TeamPFP/AmionPFP.png';
 
 
 
@@ -182,6 +183,17 @@ const Team = () => {
                 email: 'mailto:devin.racco@gmail.com',
             },
             optionalParagraph: '2nd Year Degroote Commerce Student'
+        },
+        {
+            name: 'Amion Yu',
+            position: 'VP Events',
+            img: Amion,
+            social: {
+                linkedin: 'https://www.linkedin.com/in/aimonyu/',
+                email: 'mailto:aimonyu7@gmail.com',
+                instagram: 'https://www.instagram.com/_aimon_17_/'
+            },
+            optionalParagraph: 'Level I Engineering Student, Committed to Completion'
         },
 
     ] 
