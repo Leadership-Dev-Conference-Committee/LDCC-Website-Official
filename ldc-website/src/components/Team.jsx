@@ -20,7 +20,7 @@ import Trisha from '/src/assets/TeamPFP/TrishaPFP.png';
 import Audrey from '/src/assets/TeamPFP/AudreyPFP.png';
 import Devin from '/src/assets/TeamPFP/DevinPFP.png';
 import Amion from '/src/assets/TeamPFP/AmionPFP.png';
-import Buddhisha from '/src/assets/TeamPFP/BuddhishaPFP.png';
+import Buddhisha from '/src/assets/TeamPFP/Buddhisha.png';
 
 
 
