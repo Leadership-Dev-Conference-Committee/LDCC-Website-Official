@@ -55,7 +55,7 @@ const Navbar = () => {
                                 </Link>
 
                             ))}
-                            <Link className='bg-purple-950 text-slate-100 hover:bg-red-900 transition font-normal text-sm px-2 py-1 rounded-lg' to={'/Register'} >Register Now!</Link>
+                            <Link className='bg-purple-950 text-slate-100 hover:bg-red-900 transition font-normal text-sm px-2 py-1 rounded-lg' to={'/Register'} >Registration</Link>
                         </ul>
 
                         <button className="font-black text-xl transition hover:text-red-900 flex md:hidden" onClick={() => setOpen((open) => !open)}><FiMenu /></button>

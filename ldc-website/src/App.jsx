@@ -33,7 +33,7 @@ function App() {
               <Route path='/FAQ' element={<FAQPage />} />
               <Route path='/Sponsors' element={<SponsorPage />} />
               <Route path='/Register' element={<RegisterPage />} />
-              <Route path='Confirmation' element={<ConfirmationPage />} />
+              <Route path='Confirmation' element={<NotFound />} />
             </Route>
 
           </Routes>

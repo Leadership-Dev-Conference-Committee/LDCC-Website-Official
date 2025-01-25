@@ -30,13 +30,33 @@ const FAQ = () => {
     },
     {
       title: "Is registration open?",
-      description: "Not yet! But, keep an eye out for more updates.",
+      description: "The Early Registration has closed. However, Official Registration will be open on OscarPlus soon!.",
+    },
+    {
+      title: "I registered, now what?",
+      description: "If you have registered through the Early Registration, you will receive an email with more information about the event and you will be placed on the priority list.",
+    },
+    {
+      title: "What is 'Priority List'?",
+      description: "While we aim to accommodate as many students as possible, space is limited to 300 attendees. Those who completed early registration will have the opportunity to secure their spot first.",
     },
     {
       title:
         "Will there be opportunities to network with industry professionals?",
       description:
         "Yes, there will be dedicated networking sessions with industry professionals, students who have experience in the industry, and recruiters from companies.",
+    },
+    {
+      title:
+        "What does 'Exclusive Workshop' mean?",
+      description:
+        "Our Exclusive Workshop is a unique opportunity for students to engage with our top-tier sponsor in a more intimate setting. This is a chance to ask questions, learn from their experiences, and gain valuable insights. They will be holding a personalized workshop for a select group of students.",
+    },
+    {
+      title:
+        "What is a conference? What can I expect?",
+      description:
+        "The conference is an event that includes keynote speakers, industry professionals, networking sessions, and workshops. Attendees will have the opportunity to learn from industry leaders, connect with peers, and gain valuable insights into personal branding and career growth.",
     },
     {
       title: "Is this the first year LDC is running?",
@@ -51,7 +71,7 @@ const FAQ = () => {
     {
       title:
         "Will I get a 0.5% bonus for 1p13 or 1p10, as we got that last year?",
-      description: "We are currently working to figure that out as well.",
+      description: "We have 1p10 bonus confirmed! However, we are still working to get 1p13.",
     },
     {
       title:
@@ -75,12 +95,12 @@ const FAQ = () => {
     {
       title:
         "Are there any giveaways or prizes at the conference?",
-      description: "Yes, there will be prizes at the event. More information about the conference will be released soon!",
+      description: "Yes, there will be prizes at the event. More information about the conference prizes will be released soon!",
     },
     {
       title:
         "Will food and beverages be provided?",
-      description: "We are unsure about that at the moment; however, we are hoping to provide all our guests with the best experience possible.",
+      description: "We aim to provide all our attendees with the best experience possible. Thus, food will be provided at the event.",
     },
     {
       title:
@@ -88,6 +108,8 @@ const FAQ = () => {
       description: "Please come dressed in Business Casual or Semi-professional, especially because there will be time to network and take Linkedin headshots!. ",
     },
   ];
+
+  const [showAll, setShowAll] = React.useState(false);
 
   return (
     <main className="flex flex-col bg-gradient-to-b from-blue-50 to-orange-50 pt-5 px-10">
@@ -112,8 +134,10 @@ const FAQ = () => {
             possible!
           </p>
 
-          <section className="mb-14 mt-10 max-w-screen-xl w-full justify-center grid gap-6 grid-cols-1 md:grid-cols-2 ">
-            {topics.map((topic, index) => (
+          <section className="mt-10 max-w-screen-xl w-full justify-center grid gap-6 grid-cols-1 md:grid-cols-2 ">
+            {topics
+            .slice(0, showAll ? topics.length : 6)
+            .map((topic, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="md:text-lg text-md font-semibold text-red-900">
                   {topic.title}
@@ -122,6 +146,15 @@ const FAQ = () => {
               </div>
             ))}
           </section>
+
+          <button className='mb-14 mt-10'>
+            <span
+              onClick={() => setShowAll((showAll) => !showAll)}
+              className="text-md font-normal text-purple-950 underline cursor-pointer"
+            >
+              {showAll ? "Show Less" : "Show More"}
+            </span>
+          </button>
         </article>
       </section>
     </main>

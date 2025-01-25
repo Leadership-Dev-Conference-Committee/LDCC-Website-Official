@@ -4,7 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
-const Footer = () => {
+const Confirmation = () => {
 
     const Links = [
         {
@@ -48,4 +48,4 @@ const Footer = () => {
 
 }
 
-export default Footer;
+export default Confirmation;
