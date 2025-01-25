@@ -20,6 +20,7 @@ import Trisha from '/src/assets/TeamPFP/TrishaPFP.png';
 import Audrey from '/src/assets/TeamPFP/AudreyPFP.png';
 import Devin from '/src/assets/TeamPFP/DevinPFP.png';
 import Amion from '/src/assets/TeamPFP/AmionPFP.png';
+import Buddhisha from '/src/assets/TeamPFP/BuddhishaPFP.png';
 
 
 
@@ -194,6 +195,17 @@ const Team = () => {
                 instagram: 'https://www.instagram.com/_aimon_17_/'
             },
             optionalParagraph: 'Level I Engineering Student, Committed to Completion'
+        },
+        {
+            name: 'Buddhisha Amarakoon',
+            position: 'VP Media & Content',
+            img: Buddhisha,
+            social: {
+                linkedin: 'https://www.linkedin.com/in/buddhisha2005',
+                email: 'mailto:bud.amarakoon@gmail.com',
+                instagram: 'https://www.instagram.com/bud.xoxo/'
+            },
+            optionalParagraph: 'Second Year Honours Health Sciences Student at McMaster University'
         },
 
     ] 
