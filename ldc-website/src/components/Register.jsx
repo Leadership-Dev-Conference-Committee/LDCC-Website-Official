@@ -160,7 +160,7 @@ const Register = () => {
           <section className="grid grid-cols-1 gap-y-6 w-full">
             <div className="flex text-center justify-center">
             <button type="submit" disabled className={`w-full p-4 rounded-2xl cursor-not-allowed text-white font-medium cursor-disabled bg-gray-500`}>
-              {isSubmitting ? "Submitting..." : "Submit"}
+              Form Closed. Thank you for registering!
             </button>
 
             </div>
