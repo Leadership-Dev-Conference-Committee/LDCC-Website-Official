@@ -4,6 +4,12 @@ on:
   push:
     branches: [ "main" ]
 
+permissions:
+  contents: read
+  deployments: write
+  statuses: write
+
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -12,15 +18,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Debug current working directory
-        run: pwd
-
       - name: Install Dependencies
         run: npm install
-        working-directory: ldc-website
-
-      - name: List all project files
-        run: ls -lR
         working-directory: ldc-website
       
       - name: Build Project
@@ -34,7 +33,6 @@ jobs:
           publish-dir: 'ldc-website/dist'
           production-branch: main
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
           deploy-message: "Send website for Netlify Deployment"
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
