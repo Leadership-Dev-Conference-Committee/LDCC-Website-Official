@@ -31,10 +31,13 @@ jobs:
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2
         with:
-          publish-dir: './ldc-website/dist'
+          publish-dir: 'ldc-website/dist'
           production-branch: main
           github-token: ${{ secrets.GITHUB_TOKEN }}
           deploy-message: "Send website for Netlify Deployment"
+        
+      - name: List build output
+        run: ls -lR ldc-website/dist
 
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
