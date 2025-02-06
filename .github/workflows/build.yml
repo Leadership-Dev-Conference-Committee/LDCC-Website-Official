@@ -24,8 +24,7 @@ jobs:
         run: |
           cd ldc-website
           npm run build
-        working-directory: ldc-website
-
+          
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2
         with:
