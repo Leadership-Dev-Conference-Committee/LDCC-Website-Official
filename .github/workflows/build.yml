@@ -21,7 +21,9 @@ jobs:
         working-directory: ldc-website
       
       - name: Build Project
-        run: npm run build
+        run: |
+          cd ldc-website
+          npm run build
         working-directory: ldc-website
 
       - name: Deploy to Netlify
