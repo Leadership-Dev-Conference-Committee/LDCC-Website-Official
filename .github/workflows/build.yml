@@ -9,6 +9,7 @@ permissions:
   deployments: write
   statuses: write
   pull-requests: write
+  commit-status: write
 
 
 jobs:
@@ -36,7 +37,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           deploy-message: "Send website for Netlify Deployment"
           enable-pull-request-comment: false
-          enable-commit-comment: true
+          enable-commit-comment: false
           overwrites-pull-request-comment: true
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
