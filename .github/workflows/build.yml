@@ -19,11 +19,11 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
-        working-directory: ldc-website
+        working-directory: /home/runner/work/LDCC-Website-Official/ldc-website
 
       - name: List all project files
         run: ls -lR
-        working-directory: ldc-website
+        working-directory: /home/runner/work/LDCC-Website-Official/ldc-website
       
       - name: Build Project
         run: |
