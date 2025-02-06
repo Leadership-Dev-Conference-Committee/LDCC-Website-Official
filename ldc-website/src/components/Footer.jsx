@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Link } from 'react-router-dom';
-import Logo from '../../src/assets/oldlogo.png'
+import Logo from '../../src/assets/footerlogo.png'
 
 const Footer = () => {
 
