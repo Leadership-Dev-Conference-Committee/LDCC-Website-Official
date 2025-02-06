@@ -11,19 +11,17 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          path: ldc-website
 
       - name: Debug current working directory
         run: pwd
 
       - name: Install Dependencies
         run: npm install
-        working-directory: /home/runner/work/LDCC-Website-Official/ldc-website
+        working-directory: ldc-website
 
       - name: List all project files
         run: ls -lR
-        working-directory: /home/runner/work/LDCC-Website-Official/ldc-website
+        working-directory: ldc-website
       
       - name: Build Project
         run: |
