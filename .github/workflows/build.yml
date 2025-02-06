@@ -9,8 +9,6 @@ permissions:
   deployments: write
   statuses: write
   pull-requests: write
-  commit-status: write
-
 
 jobs:
   build:
