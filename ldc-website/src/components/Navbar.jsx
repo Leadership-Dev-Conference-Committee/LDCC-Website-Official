@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../src/assets/newlogo.png'
+import Logo from '../../src/assets/officialLogo.png'
 import Headroom from 'react-headroom'
 import { FiMenu } from "react-icons/fi";
 import { Link } from 'react-router-dom';

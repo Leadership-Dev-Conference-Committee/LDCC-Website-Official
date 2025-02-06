@@ -1,4 +1,3 @@
-import oldLogo from '/src/assets/oldlogo.png';
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -6,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 
 // Team component
-import Default from '/src/assets/newLogo.png';
+import Default from '/src/assets/officialLogo.png';
 import Dhruv from '/src/assets/TeamPFP/DhruvPFP.jpg';
 import Jackie from '/src/assets/TeamPFP/JackiePFP.png';
 import Deea from '/src/assets/TeamPFP/DeeaPFP.png';
