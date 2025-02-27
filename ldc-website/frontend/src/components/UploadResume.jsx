@@ -34,7 +34,7 @@ const UploadResume = () => {
         formData.append("secretCode", secretCode); // Send the secret code
 
         try {
-            const response = await fetch("http://localhost:3000/upload", {
+            const response = await fetch("https://ldcc-website-official.onrender.com", {
                 method: "POST",
                 body: formData,
             });
