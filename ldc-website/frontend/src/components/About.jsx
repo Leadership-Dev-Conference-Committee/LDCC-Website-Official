@@ -12,7 +12,7 @@ import { TbMapPin2 } from "react-icons/tb";
 const About = () => {
 
     //Update date when event date is confirmed
-    const dateOfEvent = ['Date: Tuesday Febuary 25th, 2025']
+    const dateOfEvent = ['Date: Monday March 17th, 2025']
 
     //Update time when event time is confirmed
     const timeOfEvent = ['Timings: 5:00 - 9:00 PM (Doors open at 4:30 PM)']
@@ -53,7 +53,9 @@ const About = () => {
                 <article className="flex justify-between max-w-screen-xl w-full items-center -mt-4 gap-4">
                     <div className='flex flex-col text-start'>
                         <h1 className='font-semibold md:text-2xl lg:text-3xl text-xl flex text-red-900 max-w-screen-md'>Welcome to McMaster's Annual Leadership Development Conference '25</h1>
-                        <p className='font-medium md:text-md lg:text-lg text-sm my-5'>Join McMaster Engineering students in the <strong>largest student run engineering conference!</strong></p>
+                        {/* <p className='font-medium md:text-md lg:text-lg text-sm my-5'>Join McMaster Engineering students in the <strong>largest student run engineering conference!</strong></p> */}
+
+                        <p className='font-medium md:text-md lg:text-lg text-sm my-5 max-w-screen-md' >Join McMaster University's <strong>largest student run engineering conference</strong> featuring co-op pannels, professional speakers, final-year capstone projects, networking opportuinties and Linkedin headshots! Early registeration is now closed! </p>
                         
                         <section className='flex flex-col text-lg font-bold gap-2'>
                             <div className='flex gap-2 items-center'>

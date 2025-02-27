@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 
 const FAQ = () => {
   const topics = [
@@ -15,7 +15,7 @@ const FAQ = () => {
     {
       title: "Where and when is the conference",
       description:
-        "The event will be held on February 25th at CIBC Hall, at the McMaster University campus in Hamilton, Ontario.",
+        "The event will be held on March 17th at CIBC Hall, at the McMaster University campus in Hamilton, Ontario.",
     },
     {
       title:
@@ -109,7 +109,7 @@ const FAQ = () => {
     },
   ];
 
-  const [showAll, setShowAll] = React.useState(false);
+  const [showAll, setShowAll] = useState(false);
 
   return (
     <main className="flex flex-col bg-gradient-to-b from-blue-50 to-orange-50 pt-5 px-10">

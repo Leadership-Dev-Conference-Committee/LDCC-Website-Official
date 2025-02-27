@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../src/assets/officialLogo.png'
+import Logo from '../assets/officialLogo.png'
 import Headroom from 'react-headroom'
 import { FiMenu } from "react-icons/fi";
 import { Link } from 'react-router-dom';
@@ -55,7 +55,10 @@ const Navbar = () => {
                                 </Link>
 
                             ))}
-                            <Link className='bg-purple-950 text-slate-100 hover:bg-red-900 transition font-normal text-sm px-2 py-1 rounded-lg' to={'/Register'} >Registration</Link>
+                            <Link className='bg-purple-950 text-slate-100 hover:bg-red-900 transition font-normal text-sm px-2 py-1 rounded-lg' to={'/UploadResume'} >Upload Resume</Link>
+
+                            <Link className='bg-purple-950 -mx-5 text-slate-100 hover:bg-red-900 transition font-normal text-sm px-2 py-1 rounded-lg' to={'/Register'} >Registration</Link>
+                            
                         </ul>
 
                         <button className="font-black text-xl transition hover:text-red-900 flex md:hidden" onClick={() => setOpen((open) => !open)}><FiMenu /></button>
@@ -68,7 +71,8 @@ const Navbar = () => {
                                 <Link to={item.path} onClick={() => { setOpen((open) => !open); window.scrollTo(0, 0); }} className='cursor-pointer select-none' >{item.title}</Link>
                             </li>
                         ))}
-                            <Link className='bg-purple-950 text-slate-100 font-normal text-sm px-2 py-1 mt-2 rounded-lg' onClick={() => setOpen((open) => !open)} to={'/Register'}>Register Now!</Link>
+                            <Link className='bg-purple-950 text-slate-100 font-normal text-sm px-2 py-1 mt-2 rounded-lg' onClick={() => setOpen((open) => !open)} to={'/UploadResume'}>UploadResume</Link>
+                            <Link className='bg-purple-950 text-slate-100 font-normal text-sm px-2 py-1 mt-2 rounded-lg' onClick={() => setOpen((open) => !open)} to={'/Register'}>Registration</Link>
                         </ul>
                     </div>
 

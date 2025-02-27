@@ -13,6 +13,7 @@ import SponsorPage from './pages/SponsorPage'
 import RegisterPage from './pages/RegisterPage'
 import ConfirmationPage from './pages/ConfirmationPage'
 import AgendaPage from './pages/AgendaPage'
+import StudentResume from './pages/StudentResumePage'
 
 function App() {
 
@@ -33,7 +34,8 @@ function App() {
               <Route path='/FAQ' element={<FAQPage />} />
               <Route path='/Sponsors' element={<SponsorPage />} />
               <Route path='/Register' element={<RegisterPage />} />
-              <Route path='Confirmation' element={<NotFound />} />
+              <Route path='/Confirmation' element={<NotFound />} />
+              <Route path='/UploadResume' element={<StudentResume />} />
             </Route>
 
           </Routes>

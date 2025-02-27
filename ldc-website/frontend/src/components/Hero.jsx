@@ -8,9 +8,9 @@ import { MdEmail } from "react-icons/md";
 const Hero = () => {
 
     //Update date when event date is confirmed
-    const dateOfEvent = ['February 25th']
+    const dateOfEvent = ['March 17th']
 
-    const eventInfo = <p>Join McMaster University's <strong>largest student run engineering conference</strong> featuring co-op pannels, professional speakers, final-year capstone projects, networking opportuinties and Linkedin headshots! Early registeration is now closed! </p>
+    const eventInfo = <p>Join McMaster Engineering students in the <strong>largest student run engineering conference!</strong></p>
 
     const Links = [
         {
